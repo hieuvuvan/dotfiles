@@ -1,0 +1,10 @@
+[alias]
+	st = status
+	co = checkout
+	cm = commit
+	br = branch
+	s = show
+	logg = log --oneline --graph --decorate
+[user]
+	name = hieuvv
+	email = hieuvv@sapo.vn
