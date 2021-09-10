@@ -8,7 +8,7 @@ colorscheme desert
 let g:fzf_preview_window = []
 
 let mapleader = ","
-nmap <leader>p :Files<cr>
+nmap <c-p> :Files<cr>
 
 autocmd BufNewFile,BufRead *.go nmap <leader>b :GoBuild<cr>
 autocmd BufNewFile,BufRead *.go nmap <leader>t :GoTestFunc<cr>
@@ -23,5 +23,7 @@ Plug 'fatih/vim-go'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'pangloss/vim-javascript'
+Plug 'jrozner/vim-antlr'
+
 
 call plug#end()

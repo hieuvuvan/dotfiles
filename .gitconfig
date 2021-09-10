@@ -5,6 +5,11 @@
 	br = branch
 	s = show
 	logg = log --oneline --graph --decorate
+	sdiff = diff --submodule
+	supdate = submodule update
+	spull = pull --recurse-submodules
+	sco = checkout --recurse-submodules
+	ss = submodule
 [user]
 	name = hieuvv
 	email = hieuvv@sapo.vn
